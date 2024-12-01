@@ -1,0 +1,49 @@
+# Build and binary directories
+/build/
+/_build/
+/dist/
+/out/
+/meson-logs/
+/meson-private/
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.vs/
+
+# Dependency management
+/deps/
+/subprojects/
+/node_modules/
+/vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Environment and configuration
+.env
+.env.local
+*.config.local
+
+# Generated files
+*.generated.*
+__pycache__/
+*.py[cod]
